@@ -336,7 +336,7 @@ input[type=submit]:hover {
 
 .container-slider h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.4rem;
+    font-size: 3.4rem;
 }
 
 .container-images {
@@ -451,6 +451,10 @@ input[type=submit]:hover {
         padding-top: 0;
     }
 
+    .container-slider h2 {
+        font-size: 1.4rem;
+    }
+
     .mapa {
         gap: 2rem;
     }
@@ -476,5 +480,13 @@ input[type=submit]:hover {
 
     .descricao-conteudo {
         margin-bottom: 900px;
+    }
+
+    #prev-button2,
+    #next-button2,
+    #prev-button,
+    #next-button {
+        width: 80px;
+        height: 80px;
     }
 }
