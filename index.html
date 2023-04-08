@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="description" content="Imóveis para venda em Londrina.">
+    <title>Imobiliária Inglaterra</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main class="inicio-bg">
+        <div class="container inicio">
+            <div class="inicio-img">
+                <a href="./"><img src="./img/logoedit.png" alt=""></a>
+            </div>
+
+            <div class="inicio-conteudo">
+                <div class="inicio-texto">
+                    <h3>Nova geração de apartamentos</h3>
+                    <h1>ÀTRIO</h1>
+                    <h3>Amplie seu olhar</h3>
+                </div>
+
+                <form class="formulario" method="post">
+                    <p> QUER SABER MAIS?</p>
+
+                    <div class="field">
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="telefone">Seu Telefone:</label>
+                        <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone*" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Seu E-Mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+                    </div>
+
+                    <input type="submit" name="acao" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <article class="descricao-bg">
+        <div class="container descricao" style="align-items: center;">
+            <div class="descricao-img">
+                <img src="./img/foto-apresentacao.png" alt="Apartamento">
+            </div>
+            <div class="descricao-conteudo">
+                <div class="descricao-conteudo-1">
+                    <h2>ÁTRIO</h2>
+                    <p id="londrina">Londrina</p>
+                    <p>Gleba Palhano</p>
+                    <h4>EM CONSTRUÇÃO</h4>
+                </div>
+                <div class="descricao-conteudo-2">
+                    <ul>
+                        <li>
+                            <h4>185 m²</h4>
+                            <p>de área privativa dos apartamentos</p>
+                        </li>
+                        <li>
+                            <h4>3 suítes</h4>
+                            <p>com aproveitamento inteligente de espaços</p>
+                        </li>
+                        <li>
+                            <h4>3 dormitórios</h4>
+                            <p>e opções de plantas flexíveis</p>
+                        </li>
+                        <li>
+                            <h4>Alto padrão</h4>
+                            <p>de acabamento na área comum</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="descricao-conteudo-3">
+                    <h3>Um grande Átrio de luz</h3>
+                    <p>Espaços amplos, luz natural, panorâmicas da cidade e linhas racionais. Todas as principais
+                        diretrizes de projeto reunidas no elemento mais importante do Átrio: o Apartamento.
+                        O living é um grande átrio de luz. A dinâmica do espaço - para visitas ou convivência íntima - é
+                        aquecida pela iluminação natural e agitada pelas vistas do bairro. O formato do ambiente
+                        possibilita a configuração de diversos layouts distintos, permitindo flexibilidade ao morador.
+                        Em todas as opções de planta, o equilíbrio entre a amplitude do living e a generosidade das
+                        áreas privativas é mantido. São 185 m² de uma bem pensada e resolvida arquitetura.</p>
+                </div>
+            </div>
+        </div>
+
+    </article>
+
+
+    <article class="slide-bg">
+        <div class="container">
+            <div class="container-slider">
+                <h2>Fotos do decorado</h2>
+                <button id="prev-button"><img src="./img/arrow.png" alt="Seta"></button>
+                <div class="container-images">
+                    <img src="./img/slide-1.jpg" alt="Foto de imóvel" class="slider on">
+                    <img src="./img/slide-2.jpg" alt="Foto de imóvel" class="slider">
+                    <img src="./img/slide3.jpg" alt="Foto de imóvel" class="slider">
+                    <img src="./img/slide-4.jpg" alt="Foto de imóvel" class="slider">
+                </div>
+                <button id="next-button"><img src="./img/arrow.png" alt="Seta"></button>
+            </div>
+        </div>
+    </article>
+
+    <article class="slide-bg">
+        <div class="container container-slider">
+            <button id="prev-button2"><img src="./img/arrow.png" alt="Seta"></button>
+            <div class="container-images">
+                <img src="./img/lazer-1.jpg" alt="Foto de imóvel" class="slider2 on">
+                <img src="./img/lazer-2.jpg" alt="Foto de imóvel" class="slider2">
+                <img src="./img/lazer-3.jpg" alt="Foto de imóvel" class="slider2">
+                <img src="./img/lazer-4.jpg" alt="Foto de imóvel" class="slider2">
+            </div>
+            <button id="next-button2"><img src="./img/arrow.png" alt="Seta"></button>
+            <h2>Área de lazer</h2>
+        </div>
+    </article>
+
+    <article class="mapa-bg">
+        <div class="container mapa">
+
+        </div>
+    </article>
+
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
