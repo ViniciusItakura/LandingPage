@@ -9,7 +9,10 @@ Site criado para uma imobiliária divulgar uma campanha de um imóvel e captar L
 ![image](https://user-images.githubusercontent.com/76711375/231268654-2cc71a64-31e4-474b-8d60-044945d8adbe.png)
 
 ![image](https://user-images.githubusercontent.com/76711375/231268766-9846d8c6-f0e4-48f3-8d51-e74fb8b4974e.png)
+<br>
 ![image](https://user-images.githubusercontent.com/76711375/231268886-524ce4dd-739b-4b9c-930f-ad4ab7c60fe8.png)
+<br>
 ![image](https://user-images.githubusercontent.com/76711375/231268969-254c3db6-a234-4311-81f3-a5b3d78df035.png)
+<br>
 ![image](https://user-images.githubusercontent.com/76711375/231268996-90087ecb-347d-4848-af12-368f51a206d7.png)
 
