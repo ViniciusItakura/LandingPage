@@ -1,5 +1,10 @@
 # LandingPage.github.io
-Site criado para uma imobiliária divulgar uma campanha de um imóvel e captar Leads.
+Site criado para uma imobiliária divulgar uma campanha de um imóvel e captar Leads. 100% responsivo!
+
+Link para acessar e testar:
+https://viniciusitakura.github.io/LandingPage.github.io/
+
+Algumas imagens:
 
 ![image](https://user-images.githubusercontent.com/76711375/231268487-e74c07b4-f07f-439b-b19d-78790f3550b9.png)
 ![image](https://user-images.githubusercontent.com/76711375/231268523-eb146088-6884-4734-8603-3217df79136a.png) 
