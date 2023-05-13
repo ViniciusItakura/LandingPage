@@ -2,7 +2,6 @@
 // assuming your form data is in $_POST
 $formData = $_POST;
 
-var_dump($formData);
 // add your RD Station token and form identifier
 $formData['token_rdstation'] = 'your-token-here';
 $formData['identificador'] = 'your-identifier-here';
@@ -21,5 +20,8 @@ $output = curl_exec($ch);
 // close curl resource to free up system resources
 curl_close($ch);
 
+// handle the response if needed
+
+// redirect back to the form page or any other page
 header('Location: index.html');
 ?>

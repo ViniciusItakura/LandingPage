@@ -28,11 +28,14 @@
                     <img src="./img/paseo.png" alt="Paseo">
                 </div>
 
-                <form class="formulario" method="post" action="./rd.php">
-                    <input type="hidden" name="email" value="">
-                    <input type="hidden" name="nome" value="">
-                    <input type="hidden" name="telefone" value="">
-                    <input type="hidden" name="lgpd" value="">
+                <form class="formulario" method="post" action="rd.php">
+                    <input type="hidden" name="email"
+                        value="<?php echo isset($_POST['email']) ? $_POST['email'] : ''; ?>">
+                    <input type="hidden" name="nome" value="<?php echo isset($_POST['nome']) ? $_POST['nome'] : ''; ?>">
+                    <input type="hidden" name="telefone"
+                        value="<?php echo isset($_POST['telefone']) ? $_POST['telefone'] : ''; ?>">
+                    <input type="hidden" name="lgpd" value="<?php echo isset($_POST['lgpd']) ? $_POST['lgpd'] : ''; ?>">
+
 
                     <p> QUER SABER MAIS?</p>
 
@@ -152,11 +155,13 @@
 
     <article class="final-bg">
         <div class="container final">
-            <form class="formulario" method="post" action="./rd.php">
-                <input type="hidden" name="email" value="">
-                <input type="hidden" name="nome" value="">
-                <input type="hidden" name="telefone" value="">
-                <input type="hidden" name="lgpd" value="">
+            <form class="formulario" method="post" action="rd.php">
+                <input type="hidden" name="email" value="<?php echo isset($_POST['email']) ? $_POST['email'] : ''; ?>">
+                <input type="hidden" name="nome" value="<?php echo isset($_POST['nome']) ? $_POST['nome'] : ''; ?>">
+                <input type="hidden" name="telefone"
+                    value="<?php echo isset($_POST['telefone']) ? $_POST['telefone'] : ''; ?>">
+                <input type="hidden" name="lgpd" value="<?php echo isset($_POST['lgpd']) ? $_POST['lgpd'] : ''; ?>">
+
 
                 <p> QUER SABER MAIS?</p>
 
@@ -180,7 +185,8 @@
                         placeholder="Declaro que li e aceito os termos da Política de Privacidade e LGPD da Imobiliária Inglaterra.*"
                         value="Aceito" required>
                     <label for="lgpd">Declaro que li e aceito os <a
-                            href="https://www.imobiliariainglaterra.com.br/politicas-de-privacidade" class="lgpd">termos
+                            href="https://www.imobiliariainglaterra.com.br/politicas-de-privacidade" class="lgpd"
+                            target="_blank">termos
                             da Política de
                             Privacidade e LGPD</a> da Imobiliária Inglaterra.</label>
                 </div>
