@@ -419,6 +419,16 @@ input[type=submit]:hover {
     width: 60rem;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer h4 {
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
 
 /*Responsivo*/
 
