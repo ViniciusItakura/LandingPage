@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #111111;
     /*overflow-x: hidden;*/
 }
@@ -55,8 +55,7 @@ dd {
     border-radius: 4px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
     text-transform: uppercase;
-    color: #332200;
-    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+    font: 400 1.125rem/1.35 'Quicksand', sans-serif;;
     font-family: 'Poppins';
     font-weight: 600;
     max-width: max-content;
@@ -64,7 +63,7 @@ dd {
 
 /*Inicio*/
 .inicio-bg {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./img/background.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./img/background.png") no-repeat;
     background-size: cover;
 }
 
@@ -84,42 +83,35 @@ dd {
 
 .inicio-conteudo {
     display: grid;
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 500px;
     align-items: center;
 }
 
-.inicio-texto {
-    text-align: center;
-    font-family: 'Poppins';
-    font-weight: 400;
-    max-width: 50ch;
-    color: #ffffff;
+.inicio-texto img{
+    max-height: 150px;
 }
 
-
-.inicio-texto h3 {
-    font-size: 1.5rem;
-}
-
-.inicio-texto h1 {
-    font-size: 10rem;
-    font-family: 'Cinzel Decorative', sans-serif;
+.lgpd {
+    color: #000fcf;
+    text-decoration: underline;
 }
 
 .formulario {
     width: 250px;
     padding: 30px;
-    color: #897773;
+    color: #1e1e1e;
     background-color: #ffffff;
-    border: 1px solid #ccc;
-    font-family: 'Poppins';
+    border: 1px solid #1e1e1e;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
+    border-radius: 6px;
 }
 
 .formulario p {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 2.5em;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -128,10 +120,17 @@ dd {
     margin: 15px 0;
 }
 
+.field-lgpd {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
 .field label,
 .field span {
     padding-left: 10px;
-    font-size: 1.1em;
+    font-size: 1.5em;
     display: block;
     width: 100%;
 }
@@ -148,8 +147,8 @@ textarea {
     padding-left: 10px;
     height: 30px;
     line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
+    border-radius: 6px;
+    border: 1px solid #1e1e1e;
     outline: none;
 }
 
@@ -166,7 +165,7 @@ textarea {
 
 input[type=submit] {
     display: block;
-    background-color: #897773;
+    background-color: #1e1e1e;
     color: #ffffff;
     height: 35px;
     border: none;
@@ -176,18 +175,20 @@ input[type=submit] {
     margin: 0 auto;
     text-align: center;
     transition: 0.4s;
+    border-radius: 6px;
 }
 
 input[type=submit]:hover {
     background-color: #ffffff;
-    color: #897773;
-    border: 0.1rem solid #897773;
+    color: #1e1e1e;
+    border: 0.1rem solid #1e1e1e;
 }
 
 /*Descrição*/
 
 .descricao {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
@@ -197,12 +198,12 @@ input[type=submit]:hover {
 }
 
 .descricao-img img {
-    width: 2400px;
+    width: 600px;
     object-fit: cover;
 }
 
 .descricao-conteudo-1 h2 {
-    color: #998986;
+    color: #01728c;
     margin-bottom: 12px;
     font-weight: 400;
     font-size: 4rem;
@@ -211,8 +212,8 @@ input[type=submit]:hover {
 .descricao-conteudo-1 h4 {
     font-size: 1.5rem;
     padding: 7px;
-    color: #484848;
-    background: #f4efeb;
+    color: #004353;
+    background: #d2f7ff;
     display: inline-block;
     font-size: 15px;
     font-weight: 300;
@@ -244,7 +245,7 @@ input[type=submit]:hover {
     margin-bottom: 5px;
     font-size: 2rem;
     font-weight: 400;
-    color: #897773;
+    color: #004353;
 }
 
 .descricao-conteudo-2 ul li p {
@@ -260,7 +261,7 @@ input[type=submit]:hover {
     width: 100px;
     height: 2px;
     position: absolute;
-    background: #C67A5C;
+    background: #01728c;
     bottom: -50px;
     left: 0px;
 }
@@ -335,7 +336,7 @@ input[type=submit]:hover {
 }
 
 .container-slider h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 3.4rem;
 }
 
@@ -372,6 +373,8 @@ input[type=submit]:hover {
     transform: rotate(180deg);
 }
 
+/*Localização*/
+
 .mapa-bg {
     background: #ececec;
 }
@@ -386,11 +389,12 @@ input[type=submit]:hover {
 .mapa h2 {
     font-size: 4rem;
     padding-top: 4rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .googlemaps {
-    width: 100rem;
+    max-width: 100vw;
+    height: 50rem;
     padding-bottom: 4rem;
 }
 
@@ -399,6 +403,8 @@ input[type=submit]:hover {
 
 .final-bg {
     background: url("./img/fundo.jpg");
+    background-size: cover;
+    height: 100vh+1rem;
 }
 
 .final {
@@ -425,16 +431,13 @@ input[type=submit]:hover {
         object-fit: cover;
     }
 
-    .descricao {
-        flex-direction: column;
-    }
-
     .googlemaps {
-        width: 70rem;
+        height: 70rem;
     }
 }
 
 @media (max-width: 768px) {
+
     .inicio {
         gap: 0;
     }
@@ -443,8 +446,39 @@ input[type=submit]:hover {
         display: block;
     }
 
+    .descricao {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .descricao-img {
+        display: flex;
+        justify-content: center;
+    }
+
     .descricao-conteudo {
         margin-bottom: 700px;
+    }
+
+    .inicio-img {
+        margin-bottom: 30px;
+    }
+
+    .formulario {
+        margin-top: 60px;
+    }
+
+    .inicio-texto img {
+        max-height: 120px;
+    }
+
+    .inicio-conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
     }
 
     .container-slider {
@@ -465,7 +499,7 @@ input[type=submit]:hover {
     }
 
     .googlemaps {
-        width: 50rem;
+        height: 30rem;
     }
 }
 
@@ -475,11 +509,11 @@ input[type=submit]:hover {
     }
 
     .googlemaps {
-        width: 30rem;
+        height: 20rem;
     }
 
     .descricao-conteudo {
-        margin-bottom: 900px;
+        margin-bottom: 700px;
     }
 
     #prev-button2,
